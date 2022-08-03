@@ -1,0 +1,21 @@
+.bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options {
+    font-size: 30px;
+    cursor: hand;
+    border: solid 0.3px white;
+}
+.logo:hover {
+    zoom: 200%;
+}
+
+.options:hover {
+    zoom: 120%;
+    background-color: lightcoral;
+}
