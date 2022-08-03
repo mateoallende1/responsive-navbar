@@ -20,7 +20,10 @@
 .options {
   font-size: 30px;
   cursor: hand;
-  border: solid 0.3px white; }
+  border: solid 0.01px white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center; }
 
 .logo:hover {
   zoom: 200%; }
