@@ -1,0 +1,32 @@
+@import 'logo';
+@import 'options';
+@import 'mediaq';
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Cinzel', serif;
+    height: 200px;
+    background-color: #AB2015;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.underlined {
+    text-decoration: none;
+    color: #F5F016;
+}
+
+
+
+
+
+main {
+    height: 700px;
+    background-color: #AB2015;
+}
+
